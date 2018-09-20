@@ -1,0 +1,48 @@
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+.logo-img {
+    max-height: 75px!important;
+    padding: 10px 0px 10px 0px!important;
+}
+nav{
+    overflow: hidden;
+    height: 10vh!important;
+}
+nav ul a{
+    font-size: 1rem;
+    color: #333;
+}
+nav ul li a.active{
+    background: #ccc;
+}
+.nav-wrapper{
+    width: 90%!important;
+    margin:0 auto;
+}
+.page-footer h5{
+    text-align: center;
+}
+p.aboutus{
+    text-align: justify;
+    font-family: "droid serif";
+}
+
+/*===================== batas ================*/
+
+.view{
+    padding: 20px;
+}
+.brand-logo{
+    color: #333!important;
+}

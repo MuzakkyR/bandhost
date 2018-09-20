@@ -1,0 +1,39 @@
+main{
+    padding: 4%;
+}
+.join-wrap{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.join-form{
+    background:#263238;
+    padding: 30px;
+    width: 35%;
+    min-width:300px;
+    border-radius:5px;
+}
+.input-field{
+    width: 100%;
+}
+.input-field input{
+    color:#eee;
+}
+.input-field label {
+    color: #bbb;
+}
+.error-msg{
+    color: #e53935;
+}
+.material-icons{
+    color: #bbb;
+}
+button{
+    width: 100%;
+    background: #00bfa5;
+}
+.nav-btn{
+   width: 49%;
+   font-size: 90%;
+}
